@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jtagency.github.io/static/css/main.040834e3.chunk.css",
+    "main.js": "/jtagency.github.io/static/js/main.c3f87075.chunk.js",
+    "main.js.map": "/jtagency.github.io/static/js/main.c3f87075.chunk.js.map",
+    "runtime-main.js": "/jtagency.github.io/static/js/runtime-main.638e74e5.js",
+    "runtime-main.js.map": "/jtagency.github.io/static/js/runtime-main.638e74e5.js.map",
+    "static/css/2.e9130581.chunk.css": "/jtagency.github.io/static/css/2.e9130581.chunk.css",
+    "static/js/2.894f9571.chunk.js": "/jtagency.github.io/static/js/2.894f9571.chunk.js",
+    "static/js/2.894f9571.chunk.js.map": "/jtagency.github.io/static/js/2.894f9571.chunk.js.map",
+    "static/js/3.9abe9b76.chunk.js": "/jtagency.github.io/static/js/3.9abe9b76.chunk.js",
+    "static/js/3.9abe9b76.chunk.js.map": "/jtagency.github.io/static/js/3.9abe9b76.chunk.js.map",
+    "index.html": "/jtagency.github.io/index.html",
+    "static/css/2.e9130581.chunk.css.map": "/jtagency.github.io/static/css/2.e9130581.chunk.css.map",
+    "static/css/main.040834e3.chunk.css.map": "/jtagency.github.io/static/css/main.040834e3.chunk.css.map",
+    "static/js/2.894f9571.chunk.js.LICENSE.txt": "/jtagency.github.io/static/js/2.894f9571.chunk.js.LICENSE.txt",
+    "static/media/Logo.2e53af59.svg": "/jtagency.github.io/static/media/Logo.2e53af59.svg",
+    "static/media/logo01.f0f3765f.svg": "/jtagency.github.io/static/media/logo01.f0f3765f.svg",
+    "static/media/logo02.ef3dc476.svg": "/jtagency.github.io/static/media/logo02.ef3dc476.svg",
+    "static/media/logo03.ed39a486.svg": "/jtagency.github.io/static/media/logo03.ed39a486.svg",
+    "static/media/logo04.d4601325.svg": "/jtagency.github.io/static/media/logo04.d4601325.svg",
+    "static/media/logo05.e583f97d.svg": "/jtagency.github.io/static/media/logo05.e583f97d.svg",
+    "static/media/logo06.7fcfefca.svg": "/jtagency.github.io/static/media/logo06.7fcfefca.svg",
+    "static/media/slick-theme.css": "/jtagency.github.io/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.638e74e5.js",
+    "static/css/2.e9130581.chunk.css",
+    "static/js/2.894f9571.chunk.js",
+    "static/css/main.040834e3.chunk.css",
+    "static/js/main.c3f87075.chunk.js"
+  ]
+}
