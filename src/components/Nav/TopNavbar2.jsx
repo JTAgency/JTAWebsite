@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
-import { Link as RouterLink} from "react-router-dom";
+import { Link } from "react-router-dom";
 // Components
-import Sidebar from "../Nav/Sidebar";
+import Sidebar2 from "./Sidebar2";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import { ReactComponent as Logo } from '../../assets/svg/Logo.svg';
@@ -27,11 +26,11 @@ export default function TopNavbar() {
 
   return (
     <>
-      <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+      <Sidebar2 sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
-        <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+        <NavInner className="container flexSpaceCenter"> 
+          <Link className="pointer flexNullCenter" to="/" smooth={true}>
           <Logo
             style={{
               width: '180px',
@@ -52,12 +51,12 @@ export default function TopNavbar() {
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/">
                 Home
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/get-started">
                 Services
               </Link>
             </li>
@@ -72,12 +71,12 @@ export default function TopNavbar() {
               </Link>
             </li> */}
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="pricing" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/get-started">
                 Pricing
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="/contact">
                 Contact
               </Link>
             </li>
@@ -89,9 +88,9 @@ export default function TopNavbar() {
               </a>
             </li>
             <li className="semiBold font15 pointer flexCenter">
-              <RouterLink to="/get-started" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
+              <Link to="/get-started" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
                 Get Started
-              </RouterLink>
+              </Link>
             </li>
           </UlWrapperRight>
         </NavInner>

@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 // Components
-import ClientSlider from "../Elements/ClientSlider";
+// import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import AddImage1 from "../../assets/img/add/1.png";
-import AddImage2 from "../../assets/img/add/2.png";
-import AddImage3 from "../../assets/img/add/3.png";
-import AddImage4 from "../../assets/img/add/4.png";
+// import AddImage1 from "../../assets/img/add/1.png";
+// import AddImage2 from "../../assets/img/add/2.png";
+// import AddImage3 from "../../assets/img/add/3.png";
+// import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Services() {
   return (
@@ -67,10 +68,14 @@ export default function Services() {
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
+                    <Link to="/get-started">
+                      <FullButton title="Get Started" />
+                    </Link>
                   </div>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
+                    <Link to="/contact">
+                      <FullButton title="Contact Us" border />
+                    </Link>
                   </div>
                 </ButtonsRow>
               </AddLeft>

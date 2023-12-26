@@ -5,9 +5,9 @@ import styled from "styled-components";
 // import ContactImg2 from "../../assets/img/contact-2.png";
 // import ContactImg3 from "../../assets/img/contact-3.png";
 
-import ContactImg1 from "../../assets/img/chat.png";
-import ContactImg2 from "../../assets/img/contact.png";
-import ContactImg3 from "../../assets/gif/CustomerService1Resized.gif";
+// import ContactImg1 from "../../assets/img/chat.png";
+// import ContactImg2 from "../../assets/img/contact.png";
+// import ContactImg3 from "../../assets/gif/CustomerService1Resized.gif";
 
 
 export default function Contact() {

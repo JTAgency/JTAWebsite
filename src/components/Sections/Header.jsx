@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
@@ -18,7 +19,9 @@ export default function Header() {
             Turning you ideas into reality.
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <Link to="/get-started">
+              <FullButton title="Get Started" />
+            </Link>
           </BtnWrapper>
         </div>
       </LeftSide>
