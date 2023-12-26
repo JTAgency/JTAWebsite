@@ -1,9 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
-import ContactImg1 from "../../assets/img/contact-1.png";
-import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+// import ContactImg1 from "../../assets/img/contact-1.png";
+// import ContactImg2 from "../../assets/img/contact-2.png";
+// import ContactImg3 from "../../assets/img/contact-3.png";
+
+import ContactImg1 from "../../assets/img/chat.png";
+import ContactImg2 from "../../assets/img/contact.png";
+import ContactImg3 from "../../assets/gif/CustomerService1Resized.gif";
+
 
 export default function Contact() {
   return (
@@ -37,15 +42,18 @@ export default function Contact() {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
               <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
-                  <img src={ContactImg1} alt="office" className="radius6" />
+                {/* <img src={ContactImg1} alt="office" className="radius6" /> */}
+                <img src={ContactImg1} alt="office" className="radius6" style={{ width: '180px', height: 'auto' }} />
                 </ContactImgBox>
                 <ContactImgBox>
-                  <img src={ContactImg2} alt="office" className="radius6" />
+                {/* <img src={ContactImg2} alt="office" className="radius6" /> */}
+                <img src={ContactImg2} alt="office" className="radius6" style={{ width: '180px', height: 'auto' }} />
                 </ContactImgBox>
               </div>
               <div style={{ width: "50%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
+                  {/* <img src={ContactImg3} alt="office" className="radius6" /> */}
+                <img src={ContactImg3} alt="office" className="radius6" style={{ width: '278px', height: 'auto' }} />
                 </div>
               </div>
             </div>
@@ -112,12 +120,3 @@ const SumbitWrapper = styled.div`
     margin-bottom: 50px;
   }
 `;
-
-
-
-
-
-
-
-
-

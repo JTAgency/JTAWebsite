@@ -4,6 +4,7 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import HeaderImage from "../../assets/img/header-img.png";
+// import HeaderImage from "../../assets/gif/headerGif.gif";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
