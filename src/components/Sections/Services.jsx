@@ -76,20 +76,21 @@ export default function Services() {
               </AddLeft>
               <AddRight>
                 <AddRightInner>
+                  
                   <div className="flexNullCenter">
                     <AddImgWrapp1 className="flexCenter">
-                      <img src={AddImage1} alt="office" />
+                      {/* <img src={AddImage1} alt="office" /> */}
                     </AddImgWrapp1>
                     <AddImgWrapp2>
-                      <img src={AddImage2} alt="office" />
+                      {/* <img src={AddImage2} alt="office" /> */}
                     </AddImgWrapp2>
                   </div>
                   <div className="flexNullCenter">
                     <AddImgWrapp3>
-                      <img src={AddImage3} alt="office" />
+                      {/* <img src={AddImage3} alt="office" /> */}
                     </AddImgWrapp3>
                     <AddImgWrapp4>
-                      <img src={AddImage4} alt="office" />
+                      {/* <img src={AddImage4} alt="office" /> */}
                     </AddImgWrapp4>
                   </div>
                 </AddRightInner>

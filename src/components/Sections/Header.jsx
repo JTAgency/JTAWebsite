@@ -3,8 +3,8 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
-// import HeaderImage from "../../assets/gif/headerGif.gif";
+// import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/gif/headerGif.gif";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
@@ -13,7 +13,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">Elevate Your Digital Presence with Expert Web and Software Solutions.</h1>
           <HeaderP className="font13 semiBold">
             Turning you ideas into reality.
           </HeaderP>
@@ -24,7 +24,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9, width: "100%", marginBottom: "40px"}} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
