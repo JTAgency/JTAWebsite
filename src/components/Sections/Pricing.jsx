@@ -31,7 +31,7 @@ export default function Pricing() {
                   { name: "Advanced SEO tools", cheked: false },
                   { name: "Advanced customization options", cheked: false },
                 ]}
-                action={() => (window.location.href = "https://buy.stripe.com/28obM78U7c3S4uIeUU")}
+                action={() => (window.open("https://buy.stripe.com/28obM78U7c3S4uIeUU", "_blank", "noopener noreferrer"))}
               />
             </TableBox>
             <TableBox>
@@ -48,7 +48,7 @@ export default function Pricing() {
                   { name: "Advanced SEO tools", cheked: false },
                   { name: "Advanced customization options", cheked: false },
                 ]}
-                action={() => (window.location.href = "https://buy.stripe.com/dR63fB4DRec06CQcMN")}
+                action={() => (window.open("https://buy.stripe.com/dR63fB4DRec06CQcMN", "_blank", "noopener noreferrer"))}
               />
             </TableBox>
             <TableBox>
@@ -65,7 +65,7 @@ export default function Pricing() {
                   { name: "Advanced SEO tools", cheked: true },
                   { name: "Advanced customization options", cheked: true },
                 ]}
-                action={() => (window.location.href = "https://buy.stripe.com/bIY7vR7Q34Bqd1eaEG")}
+                action={() => (window.open("https://buy.stripe.com/bIY7vR7Q34Bqd1eaEG", "_blank", "noopener noreferrer"))}
               />
             </TableBox>
           </TablesWrapper>
