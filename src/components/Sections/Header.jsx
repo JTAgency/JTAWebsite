@@ -16,7 +16,7 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Elevate Your Digital Presence with Expert Web and Software Solutions.</h1>
           <HeaderP className="font13 semiBold">
-            Turning you ideas into reality.
+            Turning your ideas into reality.
           </HeaderP>
           <BtnWrapper>
             <Link to="/get-started">
