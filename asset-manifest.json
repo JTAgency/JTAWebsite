@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JTAWebsite/static/css/main.040834e3.chunk.css",
-    "main.js": "/JTAWebsite/static/js/main.9fbc3ba8.chunk.js",
-    "main.js.map": "/JTAWebsite/static/js/main.9fbc3ba8.chunk.js.map",
+    "main.js": "/JTAWebsite/static/js/main.3b5d2c08.chunk.js",
+    "main.js.map": "/JTAWebsite/static/js/main.3b5d2c08.chunk.js.map",
     "runtime-main.js": "/JTAWebsite/static/js/runtime-main.71d6f830.js",
     "runtime-main.js.map": "/JTAWebsite/static/js/runtime-main.71d6f830.js.map",
     "static/css/2.c76b5afe.chunk.css": "/JTAWebsite/static/css/2.c76b5afe.chunk.css",
@@ -14,7 +14,9 @@
     "static/css/2.c76b5afe.chunk.css.map": "/JTAWebsite/static/css/2.c76b5afe.chunk.css.map",
     "static/css/main.040834e3.chunk.css.map": "/JTAWebsite/static/css/main.040834e3.chunk.css.map",
     "static/js/2.48c52fb3.chunk.js.LICENSE.txt": "/JTAWebsite/static/js/2.48c52fb3.chunk.js.LICENSE.txt",
+    "static/media/CustomerService1Resized.e24b2459.gif": "/JTAWebsite/static/media/CustomerService1Resized.e24b2459.gif",
     "static/media/Logo.d1aa1bc6.svg": "/JTAWebsite/static/media/Logo.d1aa1bc6.svg",
+    "static/media/contact.4faea359.png": "/JTAWebsite/static/media/contact.4faea359.png",
     "static/media/logo01.f0f3765f.svg": "/JTAWebsite/static/media/logo01.f0f3765f.svg",
     "static/media/logo02.ef3dc476.svg": "/JTAWebsite/static/media/logo02.ef3dc476.svg",
     "static/media/logo03.ed39a486.svg": "/JTAWebsite/static/media/logo03.ed39a486.svg",
@@ -28,6 +30,6 @@
     "static/css/2.c76b5afe.chunk.css",
     "static/js/2.48c52fb3.chunk.js",
     "static/css/main.040834e3.chunk.css",
-    "static/js/main.9fbc3ba8.chunk.js"
+    "static/js/main.3b5d2c08.chunk.js"
   ]
 }
