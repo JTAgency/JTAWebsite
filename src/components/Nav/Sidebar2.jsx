@@ -78,6 +78,16 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             Contact
           </Link>
         </li>
+        <li className="semiBold font20 pointer">
+          <a
+            className="whiteColor"
+            style={{ padding: "10px 15px" }}
+            href="https://billing.stripe.com/p/login/dR68x75lR3Ed7ba7ss"
+            rel="noopener noreferrer"
+          >
+            Log in
+          </a>
+        </li>
       </UlStyle>
     </Wrapper>
   );
