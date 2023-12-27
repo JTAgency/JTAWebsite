@@ -22,7 +22,7 @@ export default function Pricing() {
                 icon="roller"
                 price="$20/mo"
                 title="Basic"
-                text="Kickstart your online presence with a personalized website and a custom domain tailored for you."
+                text="Kickstart your online presence with a personalized website and a custom domain tailored for you. This is our starter plan."
                 offers={[
                   { name: "Personalized Website", cheked: true },
                   { name: "Custom Domain", cheked: true },
