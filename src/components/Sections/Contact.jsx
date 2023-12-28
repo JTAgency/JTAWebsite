@@ -49,7 +49,7 @@ export default function Contact() {
                 <label className="font13">Inquiry:</label>
                 <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
                 {/* <input type="submit" value="Send" className="pointer animate radius8" style={{ maxWidth: "220px" }} /> */}
-                <input type="submit" value="Send" class="pointer animate radius8" style={{ color: "white", maxWidth: "220px", backgroundColor: "#7620FF", padding: "15px", height:"50px"}} onClick={()=>{ alert('Successfully sent!'); }} />
+                <input type="submit" value="Send Message" class="pointer animate radius8" style={{ color: "white", maxWidth: "220px", backgroundColor: "#7620FF", padding: "15px", height:"50px"}} onClick={()=>{ alert('Successfully sent!'); }} />
               </Form>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
